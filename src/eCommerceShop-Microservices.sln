@@ -1,10 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83E2F000-ED1D-489C-B6C6-65F4F9B17FAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{EE67FA67-214E-4135-B6EC-111146934AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogAPI", "Catalog\CatalogAPI\CatalogAPI.csproj", "{E23754C8-C2C2-400F-9B4E-2E2B8E347FE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{7282A05F-00F4-4198-835B-069839B0C77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{87DC1117-54DD-4235-A3DE-1053969410EC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23754C8-C2C2-400F-9B4E-2E2B8E347FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23754C8-C2C2-400F-9B4E-2E2B8E347FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23754C8-C2C2-400F-9B4E-2E2B8E347FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23754C8-C2C2-400F-9B4E-2E2B8E347FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DC1117-54DD-4235-A3DE-1053969410EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DC1117-54DD-4235-A3DE-1053969410EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DC1117-54DD-4235-A3DE-1053969410EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DC1117-54DD-4235-A3DE-1053969410EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE67FA67-214E-4135-B6EC-111146934AAB} = {83E2F000-ED1D-489C-B6C6-65F4F9B17FAB}
+		{E23754C8-C2C2-400F-9B4E-2E2B8E347FE3} = {EE67FA67-214E-4135-B6EC-111146934AAB}
+		{87DC1117-54DD-4235-A3DE-1053969410EC} = {7282A05F-00F4-4198-835B-069839B0C77B}
 	EndGlobalSection
 EndGlobal
