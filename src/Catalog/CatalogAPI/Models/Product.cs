@@ -7,6 +7,6 @@
         public List<string> Category { get; set; } = new();
         public string Description { get; set; } = string.Empty;
         public string ImageFile { get; set; } = string.Empty;
-        public double Price { get; set; }
+        public decimal Price { get; set; }
     }
 }
